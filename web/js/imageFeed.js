@@ -8,6 +8,7 @@ $el("style", {
 	.pysssss-image-feed {
 		position: absolute;
 		background: var(--comfy-menu-bg);
+		background: color-mix(in srgb, var(--comfy-menu-bg) 70%, transparent);
 		color: var(--fg-color);
 		z-index: 99;
 		font-family: sans-serif;
@@ -169,7 +170,6 @@ $el("style", {
 		transition: 100ms linear;
 		scrollbar-gutter: stable both-edges;
 		padding: 5px;
-		background: var(--comfy-input-bg);
 		border-radius: 5px;
 		margin: 5px;
 		margin-top: 0px;
