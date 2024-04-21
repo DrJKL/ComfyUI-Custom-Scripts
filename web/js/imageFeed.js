@@ -445,7 +445,7 @@ Recommended: "enabled (max performance)" uness images are erroneously deduplicat
 								},
 								onclick: () => {
 									const v = +prompt("Enter custom column count", 20);
-									if (!isNaN(v)) {
+									if (!isNaN(v) && v > 0) {
 										updateColumnCount(v);
 									}
 								},
